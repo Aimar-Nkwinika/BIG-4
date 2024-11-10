@@ -1,0 +1,157 @@
+
+body {
+    background: #1a1a1a url('Images/homeBG.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.company-logo {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    margin: 0 auto 20px;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 10px;
+}
+
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: #66ff99;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.menu li a:hover {
+    color: #00ccff;
+}
+
+.show {
+    display: block;
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 100px 0;
+    color: #00ffcc;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    padding: 10px 20px;
+    background-color: #00ccff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #0099cc;
+}
+
+
+#intro {
+    padding: 60px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#intro h2 {
+    font-size: 2.5em;
+    color: #00ffcc;
+}
+
+#intro p {
+    font-size: 1.2em;
+    color: #e0e0e0;
+    margin: 20px 0;
+}
+
+.cta-btn {
+    margin-top: 30px;
+}
+
+
+footer {
+    background-color: #000;
+    padding: 20px 0;
+    color: #888;
+}
+
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .show {
+        display: flex;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header p {
+        font-size: 1.2em;
+    }
+
+    #intro h2 {
+        font-size: 2em;
+    }
+
+    #intro p {
+        font-size: 1em;
+    }
+}

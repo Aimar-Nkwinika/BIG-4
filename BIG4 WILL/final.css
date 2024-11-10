@@ -1,0 +1,128 @@
+
+body {
+    background: #1a1a1a url('tech-background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    font-size: 1.1em;
+}
+
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: #66ff99;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.menu li a:hover {
+    color: #00ccff;
+}
+
+
+#final-work {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#final-work h1 {
+    font-size: 3em;
+    color: #00ffcc;
+}
+
+#final-work p {
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.work-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work-item {
+    background-color: #222;
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 153, 0.5);
+    text-align: center;
+}
+
+.work-item h2 {
+    color: #66ff99;
+}
+
+.work-item p {
+    color: #bbbbbb;
+}
+
+.work-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+    color: #888;
+}
+
+
+@media (max-width: 768px) {
+    .work-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
